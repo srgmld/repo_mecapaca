@@ -1,0 +1,89 @@
+---
+title: "Mecapaca"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(downloadthis)
+```
+
+
+Descripción Proyecto
+===================================== 
+
+
+<img src="input/iconos/alternativas.png" width= 10%  align = "center" />
+<br><br><br>
+
+
+Esta sección es para poner toda la descripción del proyecto.
+
+Pasar a la ventana Mapas para revisar el material.
+
+Mapas
+===================================== 
+
+Column {.tabset}
+-----------------------------------------------------------------------
+
+### Mapa Municipio
+
+<iframe frameBorder="0" src="output/mapas/01.Mecapaca.html" width="100%" height="100%" allowtransparency="true"></iframe>
+
+### Información
+
+Aquí viene el texto explicativo.
+
+Seguido por la lista de opciones para descargar:
+
+1. Datos 1
+
+```{r }
+
+
+list(mtcars, iris) %>%
+  download_this(
+    output_name = "mtcars and iris datasets",
+    output_extension = ".xlsx",
+    button_label = "Download datasets as xlsx",
+    button_type = "warning",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
+2. Datos 2
+
+```{r }
+
+
+list(mtcars, iris) %>%
+  download_this(
+    output_name = "mtcars and iris datasets",
+    output_extension = ".xlsx",
+    button_label = "Download datasets as xlsx",
+    button_type = "warning",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
+3. Datos 3
+
+```{r }
+
+
+list(mtcars, iris) %>%
+  download_this(
+    output_name = "mtcars and iris datasets",
+    output_extension = ".xlsx",
+    button_label = "Download datasets as xlsx",
+    button_type = "warning",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
