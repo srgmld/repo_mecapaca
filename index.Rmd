@@ -12,17 +12,20 @@ library(downloadthis)
 ```
 
 
-Descripción Proyecto
+Descripción Proyect
 ===================================== 
 
 
 <img src="input/iconos/alternativas.png" width= 10%  align = "center" />
+<img src="input/iconos/alternativas.png" width= 10%  align = "right" />
+<br><br><br>
 <br><br><br>
 
-
+<center>
 Esta sección es para poner toda la descripción del proyecto.
 
 Pasar a la ventana Mapas para revisar el material.
+</center>
 
 Mapas
 ===================================== 
